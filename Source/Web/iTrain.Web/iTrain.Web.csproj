@@ -180,7 +180,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -259,6 +258,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\iTrain.Data.Models\iTrain.Data.Models.csproj">
+      <Project>{bc154ea2-a598-41e0-9a35-2e5c41cb6f84}</Project>
+      <Name>iTrain.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\iTrain.Data\iTrain.Data.csproj">
+      <Project>{5665bef4-e1b0-4c8d-a689-23bf817b6f47}</Project>
+      <Name>iTrain.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using iTrain.Web.Models;
+using iTrain.Data;
+using iTrain.Data.Models;
 
 namespace iTrain.Web
 {
