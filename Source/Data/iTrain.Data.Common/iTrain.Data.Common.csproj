@@ -7,6 +7,9 @@
     <ProjectGuid>{60275486-2CAD-458B-901A-9F9429F8C726}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iTrain.Data.Common</RootNamespace>
+    <AssemblyName>iTrain.Data.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
