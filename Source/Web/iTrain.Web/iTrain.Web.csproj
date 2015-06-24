@@ -260,6 +260,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\iTrain.Data.Common\iTrain.Data.Common.csproj">
+      <Project>{60275486-2cad-458b-901a-9f9429f8c726}</Project>
+      <Name>iTrain.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\iTrain.Data.Models\iTrain.Data.Models.csproj">
       <Project>{bc154ea2-a598-41e0-9a35-2e5c41cb6f84}</Project>
       <Name>iTrain.Data.Models</Name>
