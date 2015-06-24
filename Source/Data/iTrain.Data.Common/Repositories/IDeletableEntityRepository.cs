@@ -1,4 +1,4 @@
-﻿namespace BlogSystem.Data.Contracts
+﻿namespace iTrain.Data.Common.Repositories
 {
     using System.Linq;
 

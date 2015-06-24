@@ -3,6 +3,7 @@
     using System;
     using System.Security.Claims;
     using System.Threading.Tasks;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
@@ -25,14 +26,15 @@
             return userIdentity;
         }
 
+        [Index]
         public bool IsDeleted { get; set; }
 
-        public System.DateTime? DeletedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
-        public System.DateTime CreatedOn { get; set; }
+        public DateTime CreatedOn { get; set; }
 
         public bool PreserveCreatedOn { get; set; }
 
-        public System.DateTime? ModifiedOn { get; set; }
+        public DateTime? ModifiedOn { get; set; }
     }
 }

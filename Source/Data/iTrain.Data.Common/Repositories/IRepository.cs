@@ -1,4 +1,4 @@
-﻿namespace iTrain.Data.Common.Repository
+﻿namespace iTrain.Data.Common.Repositories
 {
     using System;
     using System.Linq;
