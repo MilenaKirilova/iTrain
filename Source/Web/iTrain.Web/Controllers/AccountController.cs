@@ -404,6 +404,16 @@ namespace iTrain.Web.Controllers
             return View();
         }
 
+        public ActionResult UserProfile()
+        {
+            var user = new UserProfileViewModel()
+            {
+                Username = "Monkey"
+            };
+
+            return View(user);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
