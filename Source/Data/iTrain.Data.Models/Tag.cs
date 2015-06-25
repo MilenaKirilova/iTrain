@@ -1,8 +1,9 @@
 ﻿namespace iTrain.Data.Models
 {
     using System.ComponentModel.DataAnnotations;
-    using iTrain.Data.Common.Models;
     using System.ComponentModel.DataAnnotations.Schema;
+
+    using iTrain.Data.Common.Models;
 
     public class Tag: AuditInfo, IDeletableEntity
     {
