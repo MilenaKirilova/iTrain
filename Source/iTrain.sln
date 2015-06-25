@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTrain.Data.Models", "Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTrain.Data.Common", "Data\iTrain.Data.Common\iTrain.Data.Common.csproj", "{60275486-2CAD-458B-901A-9F9429F8C726}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTrain.Web.Infrastructure", "Web\iTrain.Web.Infrastructure\iTrain.Web.Infrastructure.csproj", "{E1B315A4-D206-4D8D-9C96-99E39957B585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{60275486-2CAD-458B-901A-9F9429F8C726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60275486-2CAD-458B-901A-9F9429F8C726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60275486-2CAD-458B-901A-9F9429F8C726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B315A4-D206-4D8D-9C96-99E39957B585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B315A4-D206-4D8D-9C96-99E39957B585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B315A4-D206-4D8D-9C96-99E39957B585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B315A4-D206-4D8D-9C96-99E39957B585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +62,6 @@ Global
 		{5665BEF4-E1B0-4C8D-A689-23BF817B6F47} = {F83B2F6D-180B-4478-AF91-77BABB3FE776}
 		{BC154EA2-A598-41E0-9A35-2E5C41CB6F84} = {F83B2F6D-180B-4478-AF91-77BABB3FE776}
 		{60275486-2CAD-458B-901A-9F9429F8C726} = {F83B2F6D-180B-4478-AF91-77BABB3FE776}
+		{E1B315A4-D206-4D8D-9C96-99E39957B585} = {BB2C0C6B-DC08-41EF-8C35-7A4D25118526}
 	EndGlobalSection
 EndGlobal
